@@ -1,5 +1,5 @@
 import MySQLdb
-db = MySQLdb.connect(host='10.129.154.129', user='smart', passwd='smart', db='smartlight')
+db = MySQLdb.connect(host='10.129.156.27', user='root', passwd='', db='smartlight')
 cur = db.cursor()
 cur.execute("CREATE TABLE song ( id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT, title TEXT NOT NULL )")
 
